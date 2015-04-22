@@ -7,27 +7,46 @@
 @import '../../bower_components/neat/app/assets/stylesheets/_neat.scss';
 
 
+#header_bar_1 {
+	background-color: #008080;
+	font-family: Verdana;
+	color: white;
+	width: 100%;
+	float: left;
+	display: inline;
+}
 
+#header_bar_2 {
+	background-color: #008080;
+	font-family: Verdana;
+	color: white;
+	width: 100%;
+	float: left;
+	display: inline;
+}
 
+.facebook {
+	max-height: 30px;
+	max-width: 30px;
+}
 
-/*****************************************************************************
-  Base Styles
-******************************************************************************/
+.instagram {
+	max-height: 30px;
+	max-width: 30px;
+}
 
+.pinterest {
+	max-height: 30px;
+	max-width: 30px;
+}
 
+.twitter {
+	max-height: 30px;
+	max-width: 30px;
+}
 
-
-/*****************************************************************************
-  Layout Styles
-******************************************************************************/
-
-
-
-
-/*****************************************************************************
-  Module Styles
-******************************************************************************/
-
-
-
-
+ul {
+	list-style-type: none;
+	float: right;
+	display: inline-block;
+}
