@@ -29,18 +29,43 @@ nav {
 	}
 }
 
-
 .main {
 	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	img {
+		border-radius: 75%;
+	}
+
 }
 
 .content {
 	width: 500px;
+	margin: auto;
 }
 
 .recipe_image {
 	padding: 5px;
-	border-radius: 100%;
+	display: inline;
+	max-width: 110px;
+}
+
+.recipe_prep {
+	display: inline-block;
+	font-size: .75em;
+	ul {
+		list-style: none;
+	}
+}
+
+.recipe_summary {
+	padding-left: 190px;
+	font-size: .75em;
+	margin: auto;
+	text-align: left;
+	p {
+		display: inline-block;
+	}
 }
 
 .facebook {
