@@ -7,22 +7,40 @@
 @import '../../bower_components/neat/app/assets/stylesheets/_neat.scss';
 
 
-#header_bar_1 {
+nav {
+	overflow: auto;
 	background-color: #008080;
-	font-family: Verdana;
-	color: white;
-	width: 100%;
-	float: left;
-	display: inline;
 }
 
-#header_bar_2 {
-	background-color: #008080;
+.header_bar_1 {
 	font-family: Verdana;
 	color: white;
-	width: 100%;
 	float: left;
-	display: inline;
+}
+
+.header_bar_2 {
+	font-family: Verdana;
+	color: white;
+	float: right;
+	ul {
+		li {
+			display: inline-block;
+		}
+	}
+}
+
+
+.main {
+	text-align: center;
+}
+
+.content {
+	width: 500px;
+}
+
+.recipe_image {
+	padding: 5px;
+	border-radius: 100%;
 }
 
 .facebook {
@@ -48,5 +66,9 @@
 ul {
 	list-style-type: none;
 	float: right;
-	display: inline-block;
+	display: inline;
+}
+
+p {
+	padding: 5px;
 }
