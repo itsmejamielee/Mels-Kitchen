@@ -46,12 +46,9 @@ nav {
 
 .recipe_image {
 	padding: 5px;
-	display: inline;
-	max-width: 110px;
 }
 
 .recipe_prep {
-	display: inline-block;
 	font-size: .75em;
 	ul {
 		list-style: none;
@@ -59,13 +56,9 @@ nav {
 }
 
 .recipe_summary {
-	padding-left: 190px;
 	font-size: .75em;
-	margin: auto;
 	text-align: left;
-	p {
-		display: inline-block;
-	}
+	padding-left: 2.5%;
 }
 
 .facebook {
@@ -90,10 +83,13 @@ nav {
 
 ul {
 	list-style-type: none;
-	float: right;
-	display: inline;
 }
 
 p {
 	padding: 5px;
 }
+
+tbody {
+	display: inline-block;
+}
+
